@@ -1,6 +1,4 @@
 # **D2S-RSG-SSD: Dual Double-Sampling with Random Sub-Samples Generation for Self-Supervised Real Image Denoising**
-<img src="images/Complexity.png" style="zoom:50%;" />
-
 <hr />
 
 ## :writing_hand: Changelog and ToDos
