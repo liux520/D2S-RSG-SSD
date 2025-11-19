@@ -63,6 +63,13 @@ To address these limitations, we propose a novel Dual Double-Sampling with Rando
     <p><img src = "images/real2.png" width=100% height=100%></p>
     <p><img src = "images/real3.png" width=100% height=100%></p>
 </details>
+<details>
+	<summary><strong>Human Perceptual Study</strong> (click to expand) </summary>
+    <p><img src = "images/perceptual.png"  width=100% height=100%></p>
+	[Human Perception Study](https://docs.qq.com/form/page/DUENPd1hTVFVxWG9k).
+</details>
+
+
 
 <hr />
 
