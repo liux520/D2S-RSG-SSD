@@ -1,0 +1,23 @@
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE and local environment files
+.idea/
+.vscode/
+.env
+
+# Experiment outputs and local logs
+experiments/
+results/
+tb_logger/
+*.log
+
+# Large pretrained checkpoints
+weights/
+ckpts/
+
+# Local scratch/demo script
+demo/test_class_for_scrath.py
+AGENTS.md
