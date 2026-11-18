@@ -40,6 +40,23 @@ python demo/benchmark/DND/dnd_submit.py
 
 <hr />
 
+## 📝 Citation
+If this work is helpful for you, please consider citing:
+```bibtex
+@ARTICLE{11397562,
+  author={Liu, Xiao and Shi, Xiuya and Pan, Yizhong and Gu, Shuhang and Liu, Wei and Ren, Chao},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={D2S-RSG-SSD: Dual Double-Sampling With Random Sub-Samples Generation for Self-Supervised Real Image Denoising}, 
+  year={2026},
+  volume={48},
+  number={7},
+  pages={7766-7783},
+  keywords={Noise;Noise reduction;Noise measurement;Overfitting;Image denoising;Training;Testing;Perturbation methods;Electronic mail;Correlation;Dual double-sampling;random sub-samples generation;self-supervised scheme;real image denoising},
+  doi={10.1109/TPAMI.2026.3665610}}
+```
+<hr />
+
+
 ## :bulb: Abstract
 Recent advancements in self-supervised denoising have underscored the potential of Blind-Spot Networks (BSNs). However, these methods face three main limitations:
 
@@ -97,8 +114,18 @@ To address these limitations, we propose a novel Dual Double-Sampling with Rando
     <p><img src = "images/real3.png" width=100% height=100%></p>
 </details>
 
-
-
-
 <hr />
+
+## 🙏 Acknowledgements
+
+This codebase builds on or integrates ideas and implementations from:
+
+- [BasicSR](https://github.com/XPixelGroup/BasicSR)
+- [DeamNet](https://github.com/chaoren88/DeamNet)
+- [NAFNet](https://github.com/megvii-research/NAFNet)
+- [SDAP](https://github.com/p1y2z3/SDAP)
+- [AP-BSN](https://github.com/wooseoklee4/AP-BSN) 
+- [Neighbor2Neighbor](https://github.com/TaoHuang2018/Neighbor2Neighbor)
+
+Please cite the corresponding upstream projects when using those components.
 
