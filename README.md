@@ -12,7 +12,7 @@
 Download the [pretrained checkpoint](https://pan.baidu.com/s/1tHDuN8UGMorRcUj0sEEzAw?pwd=j26u) files to the project root directory and keep them under `ckpts/`.
 The released models are trained only on SIDD validation data; for each benchmark or test set, we provide the checkpoint that performs best for that setting.
 
-The SIDD, DND, PolyU, and [Real (Self-captured)](https://pan.baidu.com/s/1gyA_3MuIrA0bDe2sJe0Esw?pwd=uhx9) datasets should be linked via symbolic links to the 'datasets/' folder.
+The SIDD, DND, PolyU, and [Real (Self-captured)](https://pan.baidu.com/s/1gyA_3MuIrA0bDe2sJe0Esw?pwd=uhx9) datasets should be linked via symbolic links to the `datasets/` folder.
 
 For testing on standard real-world noise datasets, use the script:
 
