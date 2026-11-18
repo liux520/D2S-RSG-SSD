@@ -2,8 +2,39 @@
 <hr />
 
 ## :writing_hand: Changelog and ToDos
-- [ ] Code and the model pre-training weights.
+- [x] Code and the model pre-training weights.
 - [x] Method introduction, model performance and results visualization  :fire::fire::fire:.
+
+<hr />
+
+## :rocket: Testing
+
+Download the [pretrained checkpoint](https://pan.baidu.com/s/1tHDuN8UGMorRcUj0sEEzAw?pwd=j26u) files to the project root directory and keep them under `ckpts/`.
+The released models are trained only on SIDD validation data; for each benchmark or test set, we provide the checkpoint that performs best for that setting.
+
+For testing on standard real-world noise datasets, use the script:
+
+```bash
+python demo/test_script.py
+```
+
+For large images or memory-limited devices, use the tile-based testing script:
+
+```bash
+python demo/test_tile_script.py
+```
+
+[SIDD Benchmark](https://www.kaggle.com/competitions/sidd-benchmark-srgb-psnr) testing script:
+
+```bash
+python demo/benchmark/SIDD/sidd_kaggle.py
+```
+
+[DND Benchmark](https://noise.visinf.tu-darmstadt.de/) testing script:
+
+```bash
+python demo/benchmark/DND/dnd_submit.py
+```
 
 <hr />
 
@@ -63,11 +94,7 @@ To address these limitations, we propose a novel Dual Double-Sampling with Rando
     <p><img src = "images/real2.png" width=100% height=100%></p>
     <p><img src = "images/real3.png" width=100% height=100%></p>
 </details>
-<details>
-	<summary><strong>Human Perceptual Study</strong> (click to expand) </summary>
-    <p><img src = "images/perceptual.png"  width=100% height=100%></p>
-	[Human Perception Study](https://docs.qq.com/form/page/DUENPd1hTVFVxWG9k).
-</details>
+
 
 
 
