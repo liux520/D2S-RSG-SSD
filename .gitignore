@@ -17,6 +17,9 @@ tb_logger/
 # Large pretrained checkpoints
 weights/
 ckpts/
+datasets/
+demo/logs/
+options/
 
 # Local scratch/demo script
 demo/test_class_for_scrath.py
